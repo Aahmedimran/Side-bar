@@ -25,10 +25,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
-    padding-top: 50px;
-    height: 100%;
-    min-height: 320px;
+    padding: 130px 50px 130px 50px;
 }
 
 .left>p {
@@ -39,11 +36,7 @@
 .right {
     border: 5px solid rgb(64, 180, 226);
     border-radius: 0px 10px 10px 0px;
-    padding: 50px;
-    width: 15%;
-    min-width: 270px;
-    height: 100%;
-    min-height: 320px;
+    padding: 130px 95px 130px 95px;
 }
 
 .right>p {
@@ -53,19 +46,19 @@
 
 @media screen and (max-width:480px) {
     .left {
+        padding: 20px 50px 20px 50px;
+        border-radius: 10px 10px 0px 0px;
         flex-wrap: wrap;
         flex-basis: 80%;
-        border-radius: 33px 33px 0px 0px;
-        box-sizing: border-box;
-        min-width: 300px;
-        min-height: 20px;
+        /* box-sizing: border-box; */
+        /* min-width: 300px;
+        min-height: 20px; */
     }
     .right {
+        padding: 20px 50px 20px 50px;
         flex-wrap: wrap;
+        border-radius: 0px 0px 10px 10px;
         flex-basis: 80%;
-        border-radius: 33px 33px 0px 0px;
-        min-width: 300px;
-        min-height: 20px
     }
 }
 
